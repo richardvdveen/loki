@@ -1,5 +1,22 @@
 ## Main
 
+## [0.6.2](https://github.com/grafana/loki/compare/operator/v0.6.1...operator/v0.6.2) (2024-07-11)
+
+
+### Features
+
+* **operator:** Add support for the volume API ([#13369](https://github.com/grafana/loki/issues/13369)) ([d451e23](https://github.com/grafana/loki/commit/d451e23225047a11b4d5d82900cec4a46d6e7b39))
+* **operator:** Update Loki operand to v3.1.0 ([#13422](https://github.com/grafana/loki/issues/13422)) ([cf5f52d](https://github.com/grafana/loki/commit/cf5f52dca0db93847218cdd2c3f4860d983381ae))
+
+
+### Bug Fixes
+
+* **operator:** add alertmanager client config to ruler template ([#13182](https://github.com/grafana/loki/issues/13182)) ([6148c37](https://github.com/grafana/loki/commit/6148c3760d701768e442186d4e7d574c7dc16c91))
+* **operator:** Improve API documentation for schema version ([#13122](https://github.com/grafana/loki/issues/13122)) ([3a9f50f](https://github.com/grafana/loki/commit/3a9f50f5099a02e662b8ac10ddad0b36cd844161))
+* **operator:** Skip updating annotations for serviceaccounts ([#13450](https://github.com/grafana/loki/issues/13450)) ([1b9b111](https://github.com/grafana/loki/commit/1b9b11116b48fb37b7015d27104668412fc04937))
+* **operator:** Support v3.1.0 in OpenShift dashboards ([#13430](https://github.com/grafana/loki/issues/13430)) ([8279d59](https://github.com/grafana/loki/commit/8279d59f145df9c9132aeff9e3d46c738650027c))
+* **operator:** Watch for CredentialsRequests on CCOAuthEnv only ([#13299](https://github.com/grafana/loki/issues/13299)) ([7fc926e](https://github.com/grafana/loki/commit/7fc926e36ea8fca7bd8e9955c8994574535dbbae))
+
 ## [0.6.1](https://github.com/grafana/loki/compare/operator/v0.6.0...operator/v0.6.1) (2024-06-03)
 
 
